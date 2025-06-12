@@ -13,7 +13,7 @@ describe('HTML Content Tests', () => {
 
     test('should contain the correct title', () => {
         const titleElement = document.getElementById('title');
-        expect(titleElement.textContent).toBe('Hello, World!');
+        expect(titleElement.textContent).toBe('Hello, World1');
     });
 
     test('should contain the correct description', () => {
