@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "echo 'No build step required'",
     "test": "jest"
   },
   "jest": {
