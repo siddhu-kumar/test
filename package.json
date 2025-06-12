@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build step required'",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhu-kumar/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddhu-kumar/test/issues"
+  },
+  "homepage": "https://github.com/siddhu-kumar/test#readme",
+  "dependencies": {
+    "jest": "^30.0.0"
+  },
+  "devDependencies": {
+    "jest-environment-jsdom": "^30.0.0"
+  }
+}
